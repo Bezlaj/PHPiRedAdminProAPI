@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- FOR THE CURIOUS: This site was made by Tim Bezlaj. -->
+    
+    <title>PHP iRedAdminProAPI</title>
+</head>
+
+<body>
+    <header>
+        <h1>Documentation for PHP iRedAdminPro API class</h1>
+        <aside>Using PHP iRedAdminPro API class functions</aside>
+    </header>
+     
+     <hr>
+     <h2>get_login</h2>
+     <h3>Function's parameters</h3>
+      <table width="100%">
+           <tr>
+                <td><strong>Parameters</strong></td>
+                <td><strong>Type</strong></td>
+                <td><strong>Required</strong></td>
+                <td><strong>Description</strong></td>
+           </tr>
+           <tr>
+                <td>API_HOST</td>
+                <td>String</td>
+                <td>Yes</td>
+                <td>URL of iRedAdminPro API</td>
+           </tr>
+           <tr>
+                <td>USERNAME</td>
+                <td>String</td>
+                <td>Yes</td>
+                <td>User for iRedAdminPro API</td>
+           </tr>
+           <tr>
+                <td>PASSWORD</td>
+                <td>String</td>
+                <td>Yes</td>
+                <td>Password for iRedAdminPro API</td>
+           </tr>
+      </table>
+      <hr>
+
+      <h2>get_domain</h2>
+      <h3>Function's parameters</h3>
+       <table width="100%">
+            <tr>
+                 <td><strong>Parameters</strong></td>
+                 <td><strong>Type</strong></td>
+                 <td><strong>Required</strong></td>
+                 <td><strong>Description</strong></td>
+            </tr>
+            <tr>
+                 <td>API_HOST</td>
+                 <td>String</td>
+                 <td>Yes</td>
+                 <td>URL of iRedAdminPro API</td>
+            </tr>
+            <tr>
+                 <td>Domain</td>
+                 <td>String</td>
+                 <td>Yes</td>
+                 <td>Domain name</td>
+            </tr>
+       </table>
+       <hr>
+
+       <h2>get_admin</h2>
+       <h3>Function's parameters</h3>
+        <table width="100%">
+             <tr>
+                  <td><strong>Parameters</strong></td>
+                  <td><strong>Type</strong></td>
+                  <td><strong>Required</strong></td>
+                  <td><strong>Description</strong></td>
+             </tr>
+             <tr>
+                  <td>API_HOST</td>
+                  <td>String</td>
+                  <td>Yes</td>
+                  <td>URL of iRedAdminPro API</td>
+             </tr>
+             <tr>
+                  <td>MAIL</td>
+                  <td>String</td>
+                  <td>Yes</td>
+                  <td>Admin's email</td>
+             </tr>
+        </table>
+        <hr>
+
+        <h2>get_user</h2>
+        <h3>Function's parameters</h3>
+         <table width="100%">
+              <tr>
+                   <td><strong>Parameters</strong></td>
+                   <td><strong>Type</strong></td>
+                   <td><strong>Required</strong></td>
+                   <td><strong>Description</strong></td>
+              </tr>
+              <tr>
+                   <td>API_HOST</td>
+                   <td>String</td>
+                   <td>Yes</td>
+                   <td>URL of iRedAdminPro API</td>
+              </tr>
+              <tr>
+                   <td>MAIL</td>
+                   <td>String</td>
+                   <td>Yes</td>
+                   <td>Users's email</td>
+              </tr>
+         </table>
+         <hr>
+
+         <h2>get_maillist</h2>
+         <h3>Function's parameters</h3>
+          <table width="100%">
+               <tr>
+                    <td><strong>Parameters</strong></td>
+                    <td><strong>Type</strong></td>
+                    <td><strong>Required</strong></td>
+                    <td><strong>Description</strong></td>
+               </tr>
+               <tr>
+                    <td>API_HOST</td>
+                    <td>String</td>
+                    <td>Yes</td>
+                    <td>URL of iRedAdminPro API</td>
+               </tr>
+               <tr>
+                    <td>MAIL</td>
+                    <td>String</td>
+                    <td>Yes</td>
+                    <td>Maillist's email</td>
+               </tr>
+          </table>
+          <hr>
+
+          <h2>get_alias</h2>
+          <h3>Function's parameters</h3>
+           <table width="100%">
+                <tr>
+                     <td><strong>Parameters</strong></td>
+                     <td><strong>Type</strong></td>
+                     <td><strong>Required</strong></td>
+                     <td><strong>Description</strong></td>
+                </tr>
+                <tr>
+                     <td>API_HOST</td>
+                     <td>String</td>
+                     <td>Yes</td>
+                     <td>URL of iRedAdminPro API</td>
+                </tr>
+                <tr>
+                     <td>MAIL</td>
+                     <td>String</td>
+                     <td>Yes</td>
+                     <td>Alias's email</td>
+                </tr>
+           </table>
+           <hr>
+
+           <h2>get_global_spampolicy</h2>
+           <h3>Function's parameters</h3>
+            <table width="100%">
+                 <tr>
+                      <td><strong>Parameters</strong></td>
+                      <td><strong>Type</strong></td>
+                      <td><strong>Required</strong></td>
+                      <td><strong>Description</strong></td>
+                 </tr>
+                 <tr>
+                      <td>API_HOST</td>
+                      <td>String</td>
+                      <td>Yes</td>
+                      <td>URL of iRedAdminPro API</td>
+                 </tr>
+            </table>
+            <hr>
+
+          <h2>get_domain_spampolicy</h2>
+          <h3>Function's parameters</h3>
+           <table width="100%">
+                <tr>
+                     <td><strong>Parameters</strong></td>
+                     <td><strong>Type</strong></td>
+                     <td><strong>Required</strong></td>
+                     <td><strong>Description</strong></td>
+                </tr>
+                <tr>
+                     <td>API_HOST</td>
+                     <td>String</td>
+                     <td>Yes</td>
+                     <td>URL of iRedAdminPro API</td>
+                </tr>
+                <tr>
+                     <td>DOMAIN</td>
+                     <td>String</td>
+                     <td>Yes</td>
+                     <td>Domain name</td>
+                </tr>
+           </table>
+           <hr>
+
+           <h2>get_user_spampolicy</h2>
+           <h3>Function's parameters</h3>
+            <table width="100%">
+                 <tr>
+                      <td><strong>Parameters</strong></td>
+                      <td><strong>Type</strong></td>
+                      <td><strong>Required</strong></td>
+                      <td><strong>Description</strong></td>
+                 </tr>
+                 <tr>
+                      <td>API_HOST</td>
+                      <td>String</td>
+                      <td>Yes</td>
+                      <td>URL of iRedAdminPro API</td>
+                 </tr>
+                 <tr>
+                      <td>MAIL</td>
+                      <td>String</td>
+                      <td>Yes</td>
+                      <td>Users's email</td>
+                 </tr>
+            </table>
+            <hr>
+
+            <h2>get_global_inbound_throttle</h2>
+            <h3>Function's parameters</h3>
+             <table width="100%">
+                  <tr>
+                       <td><strong>Parameters</strong></td>
+                       <td><strong>Type</strong></td>
+                       <td><strong>Required</strong></td>
+                       <td><strong>Description</strong></td>
+                  </tr>
+                  <tr>
+                       <td>API_HOST</td>
+                       <td>String</td>
+                       <td>Yes</td>
+                       <td>URL of iRedAdminPro API</td>
+                  </tr>
+             </table>
+             <hr>
+
+             <h2>get_global_outbound_throttle</h2>
+             <h3>Function's parameters</h3>
+              <table width="100%">
+                   <tr>
+                        <td><strong>Parameters</strong></td>
+                        <td><strong>Type</strong></td>
+                        <td><strong>Required</strong></td>
+                        <td><strong>Description</strong></td>
+                   </tr>
+                   <tr>
+                        <td>API_HOST</td>
+                        <td>String</td>
+                        <td>Yes</td>
+                        <td>URL of iRedAdminPro API</td>
+                   </tr>
+              </table>
+              <hr>
+
+              <h2>get_domain_inbound_throttle</h2>
+              <h3>Function's parameters</h3>
+               <table width="100%">
+                    <tr>
+                         <td><strong>Parameters</strong></td>
+                         <td><strong>Type</strong></td>
+                         <td><strong>Required</strong></td>
+                         <td><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+                         <td>API_HOST</td>
+                         <td>String</td>
+                         <td>Yes</td>
+                         <td>URL of iRedAdminPro API</td>
+                    </tr>
+                    <tr>
+                         <td>DOMAIN</td>
+                         <td>String</td>
+                         <td>Yes</td>
+                         <td>Domain name</td>
+                    </tr>
+               </table>
+               <hr>
+
+               <h2>get_domain_outbound_throttle</h2>
+               <h3>Function's parameters</h3>
+                <table width="100%">
+                     <tr>
+                          <td><strong>Parameters</strong></td>
+                          <td><strong>Type</strong></td>
+                          <td><strong>Required</strong></td>
+                          <td><strong>Description</strong></td>
+                     </tr>
+                     <tr>
+                          <td>API_HOST</td>
+                          <td>String</td>
+                          <td>Yes</td>
+                          <td>URL of iRedAdminPro API</td>
+                     </tr>
+                     <tr>
+                          <td>DOMAIN</td>
+                          <td>String</td>
+                          <td>Yes</td>
+                          <td>Domain name</td>
+                     </tr>
+                </table>
+                <hr>
+
+                <h2>get_user_inbound_throttle</h2>
+                <h3>Function's parameters</h3>
+                 <table width="100%">
+                      <tr>
+                           <td><strong>Parameters</strong></td>
+                           <td><strong>Type</strong></td>
+                           <td><strong>Required</strong></td>
+                           <td><strong>Description</strong></td>
+                      </tr>
+                      <tr>
+                           <td>API_HOST</td>
+                           <td>String</td>
+                           <td>Yes</td>
+                           <td>URL of iRedAdminPro API</td>
+                      </tr>
+                      <tr>
+                           <td>MAIL</td>
+                           <td>String</td>
+                           <td>Yes</td>
+                           <td>User's mail</td>
+                      </tr>
+                 </table>
+                 <hr>
+
+                 <h2>get_user_outbound_throttle</h2>
+                 <h3>Function's parameters</h3>
+                  <table width="100%">
+                       <tr>
+                            <td><strong>Parameters</strong></td>
+                            <td><strong>Type</strong></td>
+                            <td><strong>Required</strong></td>
+                            <td><strong>Description</strong></td>
+                       </tr>
+                       <tr>
+                            <td>API_HOST</td>
+                            <td>String</td>
+                            <td>Yes</td>
+                            <td>URL of iRedAdminPro API</td>
+                       </tr>
+                       <tr>
+                            <td>MAIL</td>
+                            <td>String</td>
+                            <td>Yes</td>
+                            <td>User's mail</td>
+                       </tr>
+                  </table>
+                  <hr>
+
+                  <h2>get_ldif_domain</h2>
+                  <h3>Function's parameters</h3>
+                   <table width="100%">
+                        <tr>
+                             <td><strong>Parameters</strong></td>
+                             <td><strong>Type</strong></td>
+                             <td><strong>Required</strong></td>
+                             <td><strong>Description</strong></td>
+                        </tr>
+                        <tr>
+                             <td>API_HOST</td>
+                             <td>String</td>
+                             <td>Yes</td>
+                             <td>URL of iRedAdminPro API</td>
+                        </tr>
+                        <tr>
+                             <td>DOMAIN</td>
+                             <td>String</td>
+                             <td>Yes</td>
+                             <td>Domain name</td>
+                        </tr>
+                   </table>
+                   <hr>
+
+                   <h2>get_ldif_catchall</h2>
+                   <h3>Function's parameters</h3>
+                    <table width="100%">
+                         <tr>
+                              <td><strong>Parameters</strong></td>
+                              <td><strong>Type</strong></td>
+                              <td><strong>Required</strong></td>
+                              <td><strong>Description</strong></td>
+                         </tr>
+                         <tr>
+                              <td>API_HOST</td>
+                              <td>String</td>
+                              <td>Yes</td>
+                              <td>URL of iRedAdminPro API</td>
+                         </tr>
+                         <tr>
+                              <td>DOMAIN</td>
+                              <td>String</td>
+                              <td>Yes</td>
+                              <td>Domain name</td>
+                         </tr>
+                    </table>
+                    <hr>
+
+                    <h2>get_ldif_admin</h2>
+                    <h3>Function's parameters</h3>
+                     <table width="100%">
+                          <tr>
+                               <td><strong>Parameters</strong></td>
+                               <td><strong>Type</strong></td>
+                               <td><strong>Required</strong></td>
+                               <td><strong>Description</strong></td>
+                          </tr>
+                          <tr>
+                               <td>API_HOST</td>
+                               <td>String</td>
+                               <td>Yes</td>
+                               <td>URL of iRedAdminPro API</td>
+                          </tr>
+                          <tr>
+                               <td>MAIL</td>
+                               <td>String</td>
+                               <td>Yes</td>
+                               <td>Admin's email</td>
+                          </tr>
+                     </table>
+                     <hr>
+
+                     <h2>get_ldif_maillist</h2>
+                     <h3>Function's parameters</h3>
+                      <table width="100%">
+                           <tr>
+                                <td><strong>Parameters</strong></td>
+                                <td><strong>Type</strong></td>
+                                <td><strong>Required</strong></td>
+                                <td><strong>Description</strong></td>
+                           </tr>
+                           <tr>
+                                <td>API_HOST</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>URL of iRedAdminPro API</td>
+                           </tr>
+                           <tr>
+                                <td>MAIL</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Maillist's email</td>
+                           </tr>
+                      </table>
+                     <hr>
+
+                     <h2>get_ldif_alias</h2>
+                     <h3>Function's parameters</h3>
+                      <table width="100%">
+                           <tr>
+                                <td><strong>Parameters</strong></td>
+                                <td><strong>Type</strong></td>
+                                <td><strong>Required</strong></td>
+                                <td><strong>Description</strong></td>
+                           </tr>
+                           <tr>
+                                <td>API_HOST</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>URL of iRedAdminPro API</td>
+                           </tr>
+                           <tr>
+                                <td>MAIL</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Alias's email</td>
+                           </tr>
+                      </table>
+                     <hr>
+
+                     <h2>create_admin</h2>
+                     <h3>Function's parameters</h3>
+                      <table width="100%">
+                           <tr>
+                                <td><strong>Parameters</strong></td>
+                                <td><strong>Type</strong></td>
+                                <td><strong>Required</strong></td>
+                                <td><strong>Description</strong></td>
+                           </tr>
+                           <tr>
+                                <td>API_HOST</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>URL of iRedAdminPro API</td>
+                           </tr>
+                           <tr>
+                                <td>MAIL</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Alias's email</td>
+                           </tr>
+                           <tr>
+                                <td>name</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Name</td>
+                           </tr>
+                           <tr>
+                                <td>password</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Admin's password</td>
+                           </tr>
+                           <tr>
+                                <td>accountStatus</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Account'a status of enable or disable account. Possible values: active, disabled</td>
+                           </tr>
+                           <tr>
+                                <td>language</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>language</td>
+                           </tr>
+                           <tr>
+                                <td>isGlobalAdmin</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>isGlobalAdmin=yes</td>
+                           </tr>
+                      </table>
+                      <hr>
+
+                      <h2>create_user</h2>
+                      <h3>Function's parameters</h3>
+                      <table width="100%">
+                           <tr>
+                                <td><strong>Parameters</strong></td>
+                                <td><strong>Type</strong></td>
+                                <td><strong>Required</strong></td>
+                                <td><strong>Description</strong></td>
+                           </tr>
+                           <tr>
+                                <td>API_HOST</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>URL of iRedAdminPro API</td>
+                           </tr>
+                           <tr>
+                                <td>MAIL</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>User's email</td>
+                           </tr>
+                           <tr>
+                                <td>NAME</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>User's display name</td>
+                           </tr>
+                           <tr>
+                                <td>PASSWORD</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Users's password</td>
+                           </tr>
+                           <tr>
+                                <td>LANGUAGE</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>User's language</td>
+                           </tr>
+                           <tr>
+                                <td>QUOTA</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>User's quota</td>
+                           </tr>
+                      </table>
+                      <hr>
+
+                      <h2>create_domain</h2>
+                      <h3>Function's parameters</h3>
+                       <table width="100%">
+                            <tr>
+                                 <td><strong>Parameters</strong></td>
+                                 <td><strong>Type</strong></td>
+                                 <td><strong>Required</strong></td>
+                                 <td><strong>Description</strong></td>
+                            </tr>
+                            <tr>
+                                 <td>API_HOST</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>URL of iRedAdminPro API</td>
+                            </tr>
+                            <tr>
+                                 <td>DOMAIN</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>Domain name</td>
+                            </tr>
+                            <tr>
+                                 <td>name</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>Short description of domain.</td>
+                            </tr>
+                            <tr>
+                                 <td>QUOTA</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>QUOTA</td>
+                            </tr>
+                            <tr>
+                                 <td>LANGUAGE</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>LANGUAGE</td>
+                            </tr>
+                            <tr>
+                                 <td>DEFAULT_QUOTA</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>DEFAULT_QUOTA</td>
+                            </tr>
+                            <tr>
+                                 <td>MAX_QUOTA</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>MAX_QUOTA</td>
+                            </tr>
+                            <tr>
+                                 <td>MAX_USER_QUOTA</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>MAX_USER_QUOTA</td>
+                            </tr>
+                            <tr>
+                                 <td>MAX_USERS</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>MAX_USERS</td>
+                            </tr>
+                            <tr>
+                                 <td>MAX_ALIASES</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>MAX_ALIASES</td>
+                            </tr>
+                            <tr>
+                                 <td>MAX_LISTS</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>MAX_LISTS</td>
+                            </tr>
+                            <tr>
+                                 <td>SENDER_BCC</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>SENDER_BCC</td>
+                            </tr>
+                            <tr>
+                                 <td>RECIPIENT_BCC</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>RECIPIENT_BCC</td>
+                            </tr>
+                       </table>
+                     <hr>
+
+                     <h2>create_maillist</h2>
+                     <h3>Function's parameters</h3>
+                      <table width="100%">
+                           <tr>
+                                <td><strong>Parameters</strong></td>
+                                <td><strong>Type</strong></td>
+                                <td><strong>Required</strong></td>
+                                <td><strong>Description</strong></td>
+                           </tr>
+                           <tr>
+                                <td>API_HOST</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>URL of iRedAdminPro API</td>
+                           </tr>
+                           <tr>
+                                <td>MAIL</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Maillist's email</td>
+                           </tr>
+                           <tr>
+                                <td>name</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>Name</td>
+                           </tr>
+                           <tr>
+                                <td>accessPolicy</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>accessPolicy</td>
+                           </tr>
+                           <tr>
+                                <td>members</td>
+                                <td>String</td>
+                                <td>Yes</td>
+                                <td>members</td>
+                           </tr>
+                      </table>
+                      <hr>
+
+                      <h2>create_alias</h2>
+                      <h3>Function's parameters</h3>
+                       <table width="100%">
+                            <tr>
+                                 <td><strong>Parameters</strong></td>
+                                 <td><strong>Type</strong></td>
+                                 <td><strong>Required</strong></td>
+                                 <td><strong>Description</strong></td>
+                            </tr>
+                            <tr>
+                                 <td>API_HOST</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>URL of iRedAdminPro API</td>
+                            </tr>
+                            <tr>
+                                 <td>MAIL</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>Alias's email</td>
+                            </tr>
+                            <tr>
+                                 <td>name</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>Name</td>
+                            </tr>
+                            <tr>
+                                 <td>accessPolicy</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>accessPolicy</td>
+                            </tr>
+                            <tr>
+                                 <td>members</td>
+                                 <td>String</td>
+                                 <td>Yes</td>
+                                 <td>members</td>
+                            </tr>
+                       </table>
+                       <hr>
+
+                       <h2>delete_domain</h2>
+                       <h3>Function's parameters</h3>
+                        <table width="100%">
+                             <tr>
+                                  <td><strong>Parameters</strong></td>
+                                  <td><strong>Type</strong></td>
+                                  <td><strong>Required</strong></td>
+                                  <td><strong>Description</strong></td>
+                             </tr>
+                             <tr>
+                                  <td>API_HOST</td>
+                                  <td>String</td>
+                                  <td>Yes</td>
+                                  <td>URL of iRedAdminPro API</td>
+                             </tr>
+                             <tr>
+                                  <td>DOMAIN</td>
+                                  <td>String</td>
+                                  <td>Yes</td>
+                                  <td>Domain name</td>
+                             </tr>
+                             <tr>
+                                  <td>DAYS</td>
+                                  <td>String</td>
+                                  <td>No</td>
+                                  <td>keep the mailbox for given days</td>
+                             </tr>
+                        </table>
+                        <hr>
+
+                        <h2>delete_admin</h2>
+                        <h3>Function's parameters</h3>
+                         <table width="100%">
+                              <tr>
+                                   <td><strong>Parameters</strong></td>
+                                   <td><strong>Type</strong></td>
+                                   <td><strong>Required</strong></td>
+                                   <td><strong>Description</strong></td>
+                              </tr>
+                              <tr>
+                                   <td>API_HOST</td>
+                                   <td>String</td>
+                                   <td>Yes</td>
+                                   <td>URL of iRedAdminPro API</td>
+                              </tr>
+                              <tr>
+                                   <td>MAIL</td>
+                                   <td>String</td>
+                                   <td>Yes</td>
+                                   <td>Admin's email</td>
+                              </tr>
+                         </table>
+                         <hr>
+
+                         <h2>delete_user</h2>
+                         <h3>Function's parameters</h3>
+                          <table width="100%">
+                               <tr>
+                                    <td><strong>Parameters</strong></td>
+                                    <td><strong>Type</strong></td>
+                                    <td><strong>Required</strong></td>
+                                    <td><strong>Description</strong></td>
+                               </tr>
+                               <tr>
+                                    <td>API_HOST</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>URL of iRedAdminPro API</td>
+                               </tr>
+                               <tr>
+                                    <td>MAIL</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>Users's email</td>
+                               </tr>
+                               <tr>
+                                    <td>DAYS</td>
+                                    <td>String</td>
+                                    <td>No</td>
+                                    <td>keep the mailbox for given days</td>
+                               </tr>
+                          </table>
+                          <hr>
+
+                          <h2>delete_maillist</h2>
+                          <h3>Function's parameters</h3>
+                           <table width="100%">
+                                <tr>
+                                     <td><strong>Parameters</strong></td>
+                                     <td><strong>Type</strong></td>
+                                     <td><strong>Required</strong></td>
+                                     <td><strong>Description</strong></td>
+                                </tr>
+                                <tr>
+                                     <td>API_HOST</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>URL of iRedAdminPro API</td>
+                                </tr>
+                                <tr>
+                                     <td>MAIL</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>Mailinglist's email</td>
+                                </tr>
+                           </table>
+                           <hr>
+
+                         <h2>update_admin_parameter</h2>
+                         <h3>Function's parameters</h3>
+                          <table width="100%">
+                               <tr>
+                                    <td><strong>Parameters</strong></td>
+                                    <td><strong>Type</strong></td>
+                                    <td><strong>Required</strong></td>
+                                    <td><strong>Description</strong></td>
+                               </tr>
+                               <tr>
+                                    <td>API_HOST</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>URL of iRedAdminPro API</td>
+                               </tr>
+                               <tr>
+                                    <td>MAIL</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>Admin's email</td>
+                               </tr>
+                               <tr>
+                                    <td>parameter</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>Parameter's name</td>
+                               </tr>
+                               <tr>
+                                    <td>parameter_value</td>
+                                    <td>String</td>
+                                    <td>Yes</td>
+                                    <td>Parameter's value</td>
+                               </tr>
+                          </table>
+                          <hr>
+
+                          <h2>update_domain_parameter</h2>
+                          <h3>Function's parameters</h3>
+                           <table width="100%">
+                                <tr>
+                                     <td><strong>Parameters</strong></td>
+                                     <td><strong>Type</strong></td>
+                                     <td><strong>Required</strong></td>
+                                     <td><strong>Description</strong></td>
+                                </tr>
+                                <tr>
+                                     <td>API_HOST</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>URL of iRedAdminPro API</td>
+                                </tr>
+                                <tr>
+                                     <td>DOMAIN</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>Domain name</td>
+                                </tr>
+                                <tr>
+                                     <td>parameter</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>Parameter's name</td>
+                                </tr>
+                                <tr>
+                                     <td>parameter_value</td>
+                                     <td>String</td>
+                                     <td>Yes</td>
+                                     <td>Parameter's value</td>
+                                </tr>
+                           </table>
+                           <hr>
+
+                           <h2>update_user_parameter</h2>
+                           <h3>Function's parameters</h3>
+                            <table width="100%">
+                                 <tr>
+                                      <td><strong>Parameters</strong></td>
+                                      <td><strong>Type</strong></td>
+                                      <td><strong>Required</strong></td>
+                                      <td><strong>Description</strong></td>
+                                 </tr>
+                                 <tr>
+                                      <td>API_HOST</td>
+                                      <td>String</td>
+                                      <td>Yes</td>
+                                      <td>URL of iRedAdminPro API</td>
+                                 </tr>
+                                 <tr>
+                                      <td>MAIL</td>
+                                      <td>String</td>
+                                      <td>Yes</td>
+                                      <td>User's email</td>
+                                 </tr>
+                                 <tr>
+                                      <td>parameter</td>
+                                      <td>String</td>
+                                      <td>Yes</td>
+                                      <td>Parameter's name</td>
+                                 </tr>
+                                 <tr>
+                                      <td>parameter_value</td>
+                                      <td>String</td>
+                                      <td>Yes</td>
+                                      <td>Parameter's value</td>
+                                 </tr>
+                            </table>
+                            <hr>
+
+                            <h2>update_users_parameter</h2>
+                            <h3>Function's parameters</h3>
+                             <table width="100%">
+                                  <tr>
+                                       <td><strong>Parameters</strong></td>
+                                       <td><strong>Type</strong></td>
+                                       <td><strong>Required</strong></td>
+                                       <td><strong>Description</strong></td>
+                                  </tr>
+                                  <tr>
+                                       <td>API_HOST</td>
+                                       <td>String</td>
+                                       <td>Yes</td>
+                                       <td>URL of iRedAdminPro API</td>
+                                  </tr>
+                                  <tr>
+                                       <td>DOMAIN</td>
+                                       <td>String</td>
+                                       <td>Yes</td>
+                                       <td>Domain name</td>
+                                  </tr>
+                                  <tr>
+                                       <td>parameter</td>
+                                       <td>String</td>
+                                       <td>Yes</td>
+                                       <td>Parameter's name</td>
+                                  </tr>
+                                  <tr>
+                                       <td>parameter_value</td>
+                                       <td>String</td>
+                                       <td>Yes</td>
+                                       <td>Parameter's value</td>
+                                  </tr>
+                             </table>
+                             <hr>
+
+                             <h2>update_maillist_parameter</h2>
+                             <h3>Function's parameters</h3>
+                              <table width="100%">
+                                   <tr>
+                                        <td><strong>Parameters</strong></td>
+                                        <td><strong>Type</strong></td>
+                                        <td><strong>Required</strong></td>
+                                        <td><strong>Description</strong></td>
+                                   </tr>
+                                   <tr>
+                                        <td>API_HOST</td>
+                                        <td>String</td>
+                                        <td>Yes</td>
+                                        <td>URL of iRedAdminPro API</td>
+                                   </tr>
+                                   <tr>
+                                        <td>MAIL</td>
+                                        <td>String</td>
+                                        <td>Yes</td>
+                                        <td>Maillist's email</td>
+                                   </tr>
+                                   <tr>
+                                        <td>parameter</td>
+                                        <td>String</td>
+                                        <td>Yes</td>
+                                        <td>Parameter's name</td>
+                                   </tr>
+                                   <tr>
+                                        <td>parameter_value</td>
+                                        <td>String</td>
+                                        <td>Yes</td>
+                                        <td>Parameter's value</td>
+                                   </tr>
+                              </table>
+                              <hr>
+
+                              <h2>update_alias_parameter</h2>
+                              <h3>Function's parameters</h3>
+                               <table width="100%">
+                                    <tr>
+                                         <td><strong>Parameters</strong></td>
+                                         <td><strong>Type</strong></td>
+                                         <td><strong>Required</strong></td>
+                                         <td><strong>Description</strong></td>
+                                    </tr>
+                                    <tr>
+                                         <td>API_HOST</td>
+                                         <td>String</td>
+                                         <td>Yes</td>
+                                         <td>URL of iRedAdminPro API</td>
+                                    </tr>
+                                    <tr>
+                                         <td>MAIL</td>
+                                         <td>String</td>
+                                         <td>Yes</td>
+                                         <td>Alias's email</td>
+                                    </tr>
+                                    <tr>
+                                         <td>parameter</td>
+                                         <td>String</td>
+                                         <td>Yes</td>
+                                         <td>Parameter's name</td>
+                                    </tr>
+                                    <tr>
+                                         <td>parameter_value</td>
+                                         <td>String</td>
+                                         <td>Yes</td>
+                                         <td>Parameter's value</td>
+                                    </tr>
+                               </table>
+                               <hr>
+
+                               <h2>set_global_spampolicy</h2>
+                               <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter_value</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's value</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_domain_spampolicy</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>DOMAIN</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Domain name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter_value</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's value</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_user_spampolicy</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Users's mail</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>parameter_value</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Parameter's value</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_global_throttle_inbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_global_throttle_outbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_domain_throttle_inbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>DOMAIN</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Domain name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_domain_throttle_outbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>DOMAIN</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Domain name</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_user_throttle_inbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>User's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>set_user_throttle_outbound</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>User's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>period</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>period</td>
+                                     </tr>
+                                     <tr>
+                                          <td>msg_size</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>msg size</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_msgs</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_msgs</td>
+                                     </tr>
+                                     <tr>
+                                          <td>max_quota</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>max_quota</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>change_email</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>User's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>NEW_MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>New user's email</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>change_alias</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Alias's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>NEW_MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>New user's email</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>verify_password</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>User's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>PASSWORD</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>User's password</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>verify_admin_password</h2>
+                                <h3>Function's parameters</h3>
+                                <table width="100%">
+                                     <tr>
+                                          <td><strong>Parameters</strong></td>
+                                          <td><strong>Type</strong></td>
+                                          <td><strong>Required</strong></td>
+                                          <td><strong>Description</strong></td>
+                                     </tr>
+                                     <tr>
+                                          <td>API_HOST</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>URL of iRedAdminPro API</td>
+                                     </tr>
+                                     <tr>
+                                          <td>MAIL</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Admin's email</td>
+                                     </tr>
+                                     <tr>
+                                          <td>PASSWORD</td>
+                                          <td>String</td>
+                                          <td>Yes</td>
+                                          <td>Admin's password</td>
+                                     </tr>
+                                </table>
+                                <hr>
+
+                                <h2>Support me!</h2>
+                                <p>Support me and <a href="https://supporterhq.com/give/apl1fdaqapzf96klfakpl3g9g"><img src="https://supporterhq.com/api/b/apl1fdaqapzf96klfakpl3g9g"></a></p>
+                                
+</body>
+</html>
